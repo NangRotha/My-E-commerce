@@ -1,0 +1,213 @@
+{
+  "settings": {
+    "store_name": "CRESCENDO",
+    "store_logo": "https://images.unsplash.com/photo-1545127398-14699f92334b?w=200&auto=format&fit=crop&q=80",
+    "is_store_active": true,
+    "contact_phone": "+855 12 888 999",
+    "contact_email": "hello@crescendo-audio.com",
+    "announcement": "🔥 Special Audio Deals: Use code 'CRESCENDO30' for 30% OFF on all premium audio gear!"
+  },
+  "slides": [
+    {
+      "id": "slide-1",
+      "title": "Feel the Sound. Live the Moment.",
+      "subtitle": "Premium audio gear designed for those who love pure sound and modern style.",
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1600&auto=format&fit=crop&q=80",
+      "link_url": "/products",
+      "button_text": "Shop Now",
+      "is_active": true,
+      "display_order": 1,
+      "created_at": "2026-10-22T13:30:00.000000"
+    },
+    {
+      "id": "slide-2",
+      "title": "Unrivaled Acoustic Precision",
+      "subtitle": "Studio-grade sound reproduction with adaptive active noise cancellation.",
+      "image_url": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=1600&auto=format&fit=crop&q=80",
+      "link_url": "/products?category=Headphones",
+      "button_text": "Explore Headphones",
+      "is_active": true,
+      "display_order": 2,
+      "created_at": "2026-10-22T13:30:00.000000"
+    }
+  ],
+  "promo_codes": [
+    {
+      "id": "promo-1",
+      "code": "CRESCENDO30",
+      "discount_type": "percentage",
+      "discount_value": 30.0,
+      "min_order": 20.0,
+      "expiry_date": "2026-12-31",
+      "usage_limit": 500,
+      "used_count": 18,
+      "is_active": true,
+      "created_at": "2026-10-22T13:30:00.000000"
+    },
+    {
+      "id": "promo-2",
+      "code": "WELCOME10",
+      "discount_type": "percentage",
+      "discount_value": 10.0,
+      "min_order": 10.0,
+      "expiry_date": "2026-12-31",
+      "usage_limit": 1000,
+      "used_count": 45,
+      "is_active": true,
+      "created_at": "2026-10-22T13:30:00.000000"
+    },
+    {
+      "id": "promo-3",
+      "code": "SAVE15USD",
+      "discount_type": "fixed",
+      "discount_value": 15.0,
+      "min_order": 50.0,
+      "expiry_date": "2026-12-31",
+      "usage_limit": 200,
+      "used_count": 12,
+      "is_active": true,
+      "created_at": "2026-10-22T13:30:00.000000"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "title": "Earbud Y168A",
+      "description": "True wireless stereo earbuds with active noise cancellation, deep acoustic punch, touch controls, and compact wireless charging case.",
+      "price": 270.0,
+      "discount_price": null,
+      "category": "Earbuds",
+      "stock": 42,
+      "images": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=800&auto=format&fit=crop&q=80"
+      ],
+      "videos": [
+        "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+      ],
+      "is_featured": true,
+      "badge": "New",
+      "rating": 5.0,
+      "review_count": 128,
+      "created_at": "2026-10-22T13:30:00.000000"
+    },
+    {
+      "id": "prod-2",
+      "title": "Pro X168A",
+      "description": "High-definition over-ear studio headphones with spatial audio, breathable memory foam cushions, RGB illumination and dual noise-isolating mics.",
+      "price": 250.0,
+      "discount_price": null,
+      "category": "Headphones",
+      "stock": 35,
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&auto=format&fit=crop&q=80"
+      ],
+      "videos": [
+        "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+      ],
+      "is_featured": true,
+      "badge": "Best Seller",
+      "rating": 5.0,
+      "review_count": 96,
+      "created_at": "2026-10-22T13:30:00.000000"
+    },
+    {
+      "id": "prod-3",
+      "title": "Speaker P168A",
+      "description": "360-degree portable omnidirectional speaker with ambient RGB halo ring, IPX7 waterproof rating, rich bass and 24-hour battery life.",
+      "price": 240.0,
+      "discount_price": null,
+      "category": "Speakers",
+      "stock": 28,
+      "images": [
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&auto=format&fit=crop&q=80"
+      ],
+      "videos": [],
+      "is_featured": true,
+      "badge": "Sale",
+      "rating": 5.0,
+      "review_count": 74,
+      "created_at": "2026-10-22T13:30:00.000000"
+    },
+    {
+      "id": "prod-4",
+      "title": "Fast GaN Power Adapter 65W",
+      "description": "Ultra-compact Gallium Nitride 65W dual port wall charger for laptops, smartphones, and wireless earbuds with smart power distribution.",
+      "price": 32.0,
+      "discount_price": 28.0,
+      "category": "Accessories",
+      "stock": 60,
+      "images": [
+        "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&auto=format&fit=crop&q=80"
+      ],
+      "videos": [],
+      "is_featured": true,
+      "badge": "Hot",
+      "rating": 4.9,
+      "review_count": 64,
+      "created_at": "2026-10-22T13:30:00.000000"
+    },
+    {
+      "id": "prod-5",
+      "title": "Wireless Charger Pad 15W",
+      "description": "Sleek aluminum and tempered glass magnetic fast wireless charging pad with intelligent heat management.",
+      "price": 35.0,
+      "discount_price": null,
+      "category": "Wireless Charger",
+      "stock": 50,
+      "images": [
+        "https://images.unsplash.com/photo-1622445262464-84b1456045b6?w=800&auto=format&fit=crop&q=80"
+      ],
+      "videos": [],
+      "is_featured": true,
+      "badge": "New",
+      "rating": 4.8,
+      "review_count": 88,
+      "created_at": "2026-10-22T13:30:00.000000"
+    },
+    {
+      "id": "prod-6",
+      "title": "Ultra Studio ANC Headphones",
+      "description": "Engineered with titanium drivers, hybrid active noise cancellation, and 40 hours of playtime for true audiophiles.",
+      "price": 199.0,
+      "discount_price": 159.0,
+      "category": "Headphones",
+      "stock": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&auto=format&fit=crop&q=80"
+      ],
+      "videos": [],
+      "is_featured": false,
+      "badge": "Sale",
+      "rating": 4.9,
+      "review_count": 112,
+      "created_at": "2026-10-22T13:30:00.000000"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "customer_name": "Sophea Chan",
+      "customer_phone": "012889900",
+      "customer_address": "Street 271, Sangkat Boeung Tumpun, Phnom Penh",
+      "items": [
+        {
+          "product_id": "prod-2",
+          "title": "Pro X168A",
+          "price": 250.0,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80"
+        }
+      ],
+      "total_amount": 250.0,
+      "discount_amount": 75.0,
+      "final_amount": 175.0,
+      "promo_code": "CRESCENDO30",
+      "status": "processing",
+      "notes": "Please call before delivery",
+      "created_at": "2026-10-22T13:30:00.000000"
+    }
+  ]
+}
