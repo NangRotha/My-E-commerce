@@ -497,15 +497,26 @@ class GoogleSheetDatabase:
                 title = self.spreadsheet.title
             except Exception:
                 title = "Connected Sheet"
+
+        status_msg = "Google Sheet Active & Synchronized in Real-Time" if self.is_connected else (
+            self.connection_error or (
+                "⚠️ Vercel Serverless: Running in temporary local cache. Connect your Google Sheet to persist changes permanently across all sessions."
+                if settings.IS_VERCEL
+                else "Operating in local disk cache mode"
+            )
+        )
+
         return {
             "is_connected": self.is_connected,
             "mode": "google_sheets" if self.is_connected else "local_database",
+            "is_serverless": settings.IS_VERCEL,
+            "persistent_storage": self.is_connected or not settings.IS_VERCEL,
             "spreadsheet_id": self.spreadsheet_id or "Not configured",
             "spreadsheet_title": title,
             "service_account_email": self.service_account_email,
             "service_account_file": self.service_account_path,
             "has_credentials": bool(Path(self.service_account_path).exists() if self.service_account_path else False),
-            "status_message": "Google Sheet Active & Synchronized in Real-Time" if self.is_connected else self.connection_error or "Operating in local cache mode"
+            "status_message": status_msg
         }
 
     def _ensure_sheets_exist(self):
